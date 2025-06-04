@@ -1,16 +1,34 @@
-# flutter_boilerplate
+# Flutter Template
 
-A new Flutter project.
+## Installation
 
-## Getting Started
+1. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
 
-This project is a starting point for a Flutter application.
+2. **Environment Setup**
+   - Check Flutter installation:
+     ```bash
+     flutter doctor
+     ```
+   - Make sure all issues are resolved before proceeding
 
-A few resources to get you started if this is your first Flutter project:
+3. **Run the application**
+   ```bash
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Project Structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+lib/
+├── core/           # Core utilities and constants
+├── data/           # Data layer (repositories, models)
+├── di/             # Dependency injection
+├── presentation/   # UI layer (screens, widgets)
+└── main.dart       # Entry point
+```
+
+
+
