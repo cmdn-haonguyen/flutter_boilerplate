@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:flutter_boilerplate/presentation/pages/favorite_page.dart';
-import 'package:flutter_boilerplate/presentation/pages/home_page.dart';
-import 'package:flutter_boilerplate/presentation/pages/search_page.dart';
+import 'package:flutter_boilerplate/presentation/favorite/pages/favorite_page.dart';
+import 'package:flutter_boilerplate/presentation/home/pages/home_page.dart';
+import 'package:flutter_boilerplate/presentation/search/pages/search_page.dart';
 
 class AppRouter {
   static final _shellKey = GlobalKey<NavigatorState>();

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/core/Router/app_router.dart';
+import 'package:flutter_boilerplate/routers/app_router.dart';
 import 'package:flutter_boilerplate/data/repositories/movie_repository.dart';
-import 'package:flutter_boilerplate/presentation/bloc/movie_bloc.dart';
-import 'package:flutter_boilerplate/presentation/bloc/movie_event.dart';
+import 'package:flutter_boilerplate/presentation/home/bloc/movie_bloc.dart';
+import 'package:flutter_boilerplate/presentation/home/bloc/movie_event.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_boilerplate/di/locator.dart';
 

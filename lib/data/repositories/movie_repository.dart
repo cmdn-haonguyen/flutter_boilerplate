@@ -1,4 +1,4 @@
-import 'package:flutter_boilerplate/models/movie.dart';
+import 'package:flutter_boilerplate/data/models/movie.dart';
 import 'package:flutter_boilerplate/core/network/api_service.dart';
 
 class MovieRepository {

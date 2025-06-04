@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_boilerplate/models/movie.dart';
-import 'package:flutter_boilerplate/presentation/bloc/movie_state.dart';
-import 'package:flutter_boilerplate/presentation/bloc/movie_bloc.dart';
+import 'package:flutter_boilerplate/data/models/movie.dart';
+import 'package:flutter_boilerplate/presentation/home/bloc/movie_state.dart';
+import 'package:flutter_boilerplate/presentation/home/bloc/movie_bloc.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
