@@ -25,8 +25,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return RepositoryProvider.value(
       value: movieRepository,
-      child: BlocProvider(
-        create: (_) => MovieBloc(movieRepository)..add(FetchMovies()),
+      child: MultiBlocProvider(
+        providers: [
+          BlocProvider(
+              create: (_) => MovieBloc(movieRepository)..add(FetchMovies()))
+        ],
         child: MaterialApp.router(
           debugShowCheckedModeBanner: false,
           routerConfig: AppRouter.router,
