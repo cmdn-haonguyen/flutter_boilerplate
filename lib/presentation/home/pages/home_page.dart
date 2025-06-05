@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_boilerplate/data/models/movie.dart';
+import 'package:flutter_boilerplate/domain/entity/movie_entity.dart';
 import 'package:flutter_boilerplate/presentation/home/bloc/movie_state.dart';
 import 'package:flutter_boilerplate/presentation/home/bloc/movie_bloc.dart';
 
@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
             return ListView.builder(
               itemCount: state.movies.length,
               itemBuilder: (context, index) {
-                final Movie movie = state.movies[index];
+                final MovieEntity movie = state.movies[index];
                 return ListTile(
                   leading: Image.network(
                     'https://image.tmdb.org/t/p/w92${movie.posterPath}',
