@@ -25,6 +25,7 @@
 lib/
 ├── core/           # Core utilities and constants
 ├── data/           # Data layer (repositories, models)
+├── domain/         # Domain layer (entity, use case)
 ├── di/             # Dependency injection
 ├── presentation/   # UI layer (screens, widgets)
 └── main.dart       # Entry point
